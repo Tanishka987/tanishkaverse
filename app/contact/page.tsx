@@ -18,7 +18,7 @@ export default function Page(){
         "AkJicW0u0bW4Dqg08" 
       )
       .then(
-        (result) => {
+        () => {
           alert("Message sent successfully!");
           form.current.reset();
         },
