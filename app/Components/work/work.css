@@ -1,0 +1,59 @@
+.container{
+    font-family: "Lucida Console", "Courier New", monospace;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    color:#757575;
+    font-size:400;
+    background-color: #fafafa;
+    padding-bottom: 3%;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    color:rgba(0, 0, 0, 0.635)
+  }
+  
+  .card {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+   color: #757575;
+   text-decoration: none;
+
+  }
+  
+  .card:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.228);
+    transition: transform 0.2s;
+    color:rgba(0, 0, 0, 0.735)
+  }
+   
+  .card p {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  

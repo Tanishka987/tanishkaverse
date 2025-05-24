@@ -1,0 +1,38 @@
+.navbar {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color:#111111;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-image {
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+  }
+  .social-image{
+    height: 40px;
+    width: auto;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 50px;
+  }
+  
+  .nav-link {
+    color: rgba(255, 255, 255, 0.925);
+    font-size: 18px;
+    font-weight:200;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    color: gray;
+  }
+  
