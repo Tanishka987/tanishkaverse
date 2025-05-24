@@ -11,7 +11,7 @@ export default function Page(){
     <div className='maincontainer'>
         <div className='content'>
             <div className='about'>about.</div>
-            <div className='subheading'>I'm a software engineer based in India. </div>
+            <div className='subheading'>{`I'm a software engineer based in India.`} </div>
             <div className='topic'>I love bringing ideas to life through clean, intuitive, and meaningful digital experiences. 
                 Whether it’s designing user-friendly websites or building smart tech solutions, my goal is to create work that connects, helps, and inspires.</div>
         </div>

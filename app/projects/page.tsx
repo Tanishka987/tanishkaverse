@@ -39,8 +39,8 @@ export default function Page() {
               Checkout my latest projects and source codes{" "}
             </div>
             <div className="topic">
-            I’ve built projects for hackathons, university, startups, 
-            and while doing internships.
+            {`I’ve built projects for hackathons, university, startups, 
+            and while doing internships.`}
             </div>
           </div>
           <img className="mainImg" src="/project.png" />
